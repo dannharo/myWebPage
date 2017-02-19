@@ -1,10 +1,9 @@
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #71FE60;
 }
 body {
     padding-top: 50px;
-    color: #000;
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5;
@@ -23,20 +22,21 @@ footer div{
 
 }
 section{
-    padding-top: 1em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+/* border: solid 1px;*/
+}
+section i{
+    color:#71FE60;
 }
 #about-me{
-    height: 500px;
-    border: solid 1px;
 }
 #hobbies{
-    height: 500px;
-    border: solid 1px;
 }
 #skills{
-    height: 500px;
-    border: solid 1px;
     background-color: #eee;
+    min-height: 350px;
+
 }
 .cover{
     height: 550px;
@@ -60,9 +60,23 @@ section{
     font-size: 16px;
     text-transform: none;
     font-weight: 400;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
     font-style: italic;
 }
 .text-gray{
     color: #777;
+
+}
+
+.navbar-nav li{
+    font-size: 20px;
+}
+.hobbies-header{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#hobbies p{
+    font-size: 12pt;
+    line-height: 1;
 }
