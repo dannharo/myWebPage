@@ -1,0 +1,68 @@
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+body {
+    padding-top: 50px;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #9acfea;
+    display: block;
+    background-color: #2a2730;
+}
+footer div{
+    border: solid 1px;
+
+}
+section{
+    padding-top: 1em;
+}
+#about-me{
+    height: 500px;
+    border: solid 1px;
+}
+#hobbies{
+    height: 500px;
+    border: solid 1px;
+}
+#skills{
+    height: 500px;
+    border: solid 1px;
+    background-color: #eee;
+}
+.cover{
+    height: 550px;
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff
+}
+.section-header{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+.section-sb-header{
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 75px;
+    font-style: italic;
+}
+.text-gray{
+    color: #777;
+}
