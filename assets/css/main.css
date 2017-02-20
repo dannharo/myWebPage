@@ -18,13 +18,11 @@ footer{
     background-color: #2a2730;
 }
 footer div{
-    border: solid 1px;
 
 }
 section{
     padding-top: 3em;
     padding-bottom: 5em;
-/* border: solid 1px;*/
 }
 section i{
     color:#71FE60;
@@ -79,4 +77,41 @@ section i{
 #hobbies p{
     font-size: 12pt;
     line-height: 1;
+}
+.progress-bar-purple {
+    background-color: purple !important;
+}
+.progress-bar-red {
+    background-color: darkred !important;
+}
+.progress-bar-blue {
+    background-color: darkblue !important;
+}
+.progress-bar-green {
+    background-color: darkgreen !important;
+}
+.color-fb{
+    color: #3b5998;
+}
+.color-linkedin{
+    color: #4875B4;
+}
+.color-github{
+    color: #000000;
+}
+.intro-head{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9vw;
+    line-height: 75px;
+}
+.intro-div{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 50%;
+    color: #71FE60;
+    height: 100%;
+}
+.intro-sub-head{
+    font-size: 2.5vw;
 }
