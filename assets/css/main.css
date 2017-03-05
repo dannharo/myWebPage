@@ -17,19 +17,12 @@ footer{
     display: block;
     background-color: #2a2730;
 }
-footer div{
-
-}
 section{
     padding-top: 3em;
     padding-bottom: 5em;
 }
 section i{
     color:#71FE60;
-}
-#about-me{
-}
-#hobbies{
 }
 #skills{
     background-color: #eee;
@@ -40,7 +33,7 @@ section i{
     height: 550px;
     background-image: url("../img/background-image.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -80,15 +73,19 @@ section i{
 }
 .progress-bar-purple {
     background-color: purple !important;
+    width:70%;
 }
 .progress-bar-red {
     background-color: darkred !important;
+    width:75%;
 }
 .progress-bar-blue {
     background-color: darkblue !important;
+    width:85%;
 }
 .progress-bar-green {
     background-color: darkgreen !important;
+    width:70%;
 }
 .color-fb{
     color: #3b5998;
@@ -114,4 +111,7 @@ section i{
 }
 .intro-sub-head{
     font-size: 2.5vw;
+}
+.white{
+    color: white;
 }
